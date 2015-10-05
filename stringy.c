@@ -18,14 +18,20 @@ int my_strlen(char *s){
 char my_strcpy(char *destination, char *source){
 }
 
+//strncat:(char *s1, char *s2) appends the characters up to 
+//and indulding the terminating null in s2 at the end of s1
+//returns s1
+char my_strncat(char *s1, char *s2){
+
+
+  return s1;
+}
+
 //strcmp: returns 0 if s1 and s2 are identical
 //postitive if more, negative if less
 int my_strcmp(char *s1, char *s2){
 }
 
-//strncat:
-my_strncat(){
-}
 //strchr:
 my_strchr(){
 }
